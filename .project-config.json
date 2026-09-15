@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3Y8xjzbV5pfCvrp.f9502567f057:u1uST3eDZAt79PFJzb22@gateway05.us-east-1.prod.aws.tidbcloud.com:4000/o7Kqy93Zsf5PVz9cZ6ckMb?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/o7Kqy93Zsf5PVz9cZ6ckMb.git",
+    "expiration": "2026-09-13T20:37:18.451Z",
+    "token": "art_v2_x_b4e906a05ad7eb8c1c2ae93def713c29cdb857d5?expires=1789331838",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "playstation-r2",
+  "path": "/home/ubuntu/playstation-r2",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "SvKhe7ZeHFKupM7bTRXN7G",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "WCjM68k5T4tENPgaBfzxFi",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "زياد زياد",
+    "OWNER_OPEN_ID": "6YKxo5wf5sxNYSne4PtAAt",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "40a99fc3-f6f8-42e0-8ca2-d4f2669afd62",
+    "VITE_APP_ID": "o7Kqy93Zsf5PVz9cZ6ckMb",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "PlayStation R2 Hub",
+    "VITE_FRONTEND_FORGE_API_KEY": "mZfzZX92LViApuXYhVhZw5",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
