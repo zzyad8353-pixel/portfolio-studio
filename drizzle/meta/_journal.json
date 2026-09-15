@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1789245461184,
+      "tag": "0000_glorious_madame_hydra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1789245567464,
+      "tag": "0001_strange_wonder_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1789248071983,
+      "tag": "0002_wise_shatterstar",
+      "breakpoints": true
+    }
+  ]
+}
